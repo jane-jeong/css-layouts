@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Card Layout </title>
+    <link rel="stylesheet" href="index.css"  type="text/css">
+    <link rel="stylesheet" href="/modules/dark-mode.css"  type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav> 
+        <div class="darkmode">
+            <input type = "checkbox" class = "checkbox" id="checkbox">
+            <label for = "checkbox" class = "label"> 
+                <i class= "moon_invisible"></i>
+                <i class = "sun"> </i>
+                <div class = "moon"> </div>
+            </label> 
+        </div>
+    </nav>
+
+    <div class="wrap"> 
+
+        <div class="card">
+            <div class="card-top">
+                <img src="images/feather-blue.jpg" class="card-image"/>
+            </div>
+            <div class="card-bottom">
+                <article class="card-thumbnail"> 
+                    <h2 class="card-title">Title</h2>
+                    <p class="card-summary"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                </article>
+            </div> <!--card-bottom-->
+        </div> <!--card-->
+
+        <div class="card">
+            <div class="card-top">
+                <img src="images/feather-purple.jpg" class="card-image"/>
+            </div>
+            <div class="card-bottom">
+                <article class="card-thumbnail"> 
+                    <h2 class="card-title">Title</h2>
+                    <p class="card-summary"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                </article>
+            </div> <!--card-bottom-->
+        </div> <!--card-->
+
+        <div class="card">
+            <div class="card-top">
+                <img src="images/feather-colorful.jpg" class="card-image"/>
+            </div>
+            <div class="card-bottom">
+                <article class="card-thumbnail"> 
+                    <h2 class="card-title">Title</h2>
+                    <p class="card-summary"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                </article>
+            </div> <!--card-bottom-->
+        </div> <!--card-->
+
+    </div> <!--wrap-->
+
+</body>
+
+<script defer src = "index.js"></script>
+<script defer src = "modules/dark-mode.js"></script>
+
+</html>

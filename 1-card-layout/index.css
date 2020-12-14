@@ -1,0 +1,103 @@
+html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;  
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    position: absolute;
+    margin: 0;
+    background-color: #e5e5e5;
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+a { text-decoration:none }
+
+.wrap {
+    width: 90%;
+    height: auto;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 350px; 
+    height: 400px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.card-top {
+    background-color: #999999;
+    width: 350px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-image{
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom {
+    background-color: #FFFFFF;
+    width: 350px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-thumbnail {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.card-title {
+    margin-top: 4px;
+    font-size: 16px; 
+}
+
+.card-summary {
+    margin: 0px;
+}
+
+
+/* resposive */
+
+@media screen and (max-width: 1140px) {
+.wrap {
+    margin-top: 150px;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 950px) {
+
+.wrap {
+    margin-top: 600px;
+    display: flex; 
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+}
